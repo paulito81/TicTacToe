@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" android:textAlignment="gravity" android:background="@drawable/back"
+            >
+        <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:id="@+id/btnSquareOne" android:layout_alignParentTop="false" android:layout_alignParentStart="true"
+                android:textAlignment="gravity" android:layout_marginLeft="5dp" android:layout_marginTop="150dp"
+                android:clickable="true" android:enabled="true" android:cropToPadding="false"
+                android:onClick="pressed" android:contentDescription="image_bt1"/>
+
+        <ImageButton android:layout_width="120dp" android:layout_height="100dp"
+                android:id="@+id/btnSquareTwo"
+                android:textAlignment="gravity"
+                android:layout_alignParentTop="false" android:layout_toEndOf="@+id/btnSquareOne"
+                android:layout_marginLeft="0dp" android:layout_marginTop="150dp" android:clickable="true"
+                android:enabled="true" android:cropToPadding="false"
+                android:onClick="pressed"/>
+        <ImageButton android:layout_width="120dp" android:layout_height="100dp"
+                android:id="@+id/btnSquareThree" android:textAlignment="gravity"
+                android:layout_alignParentTop="false" android:layout_toEndOf="@+id/btnSquareTwo"
+                android:layout_marginLeft="0dp" android:layout_marginTop="150dp" android:clickable="true"
+                android:enabled="true" android:layout_alignParentRight="false" android:cropToPadding="false"
+                android:onClick="pressed"/>
+        <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:id="@+id/btnSquareFour" android:layout_below="@+id/btnSquareOne" android:layout_toStartOf="@+id/btnSquareTwo"
+                android:clickable="true" android:enabled="true" android:layout_marginLeft="5dp"
+                android:cropToPadding="false"/>
+        <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:id="@+id/btnSquareFive" android:layout_below="@+id/btnSquareOne" android:layout_toEndOf="@+id/btnSquareOne"
+                android:clickable="true" android:enabled="true" android:cropToPadding="false"/>
+        <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:id="@+id/btnSquareSix" android:layout_below="@+id/btnSquareTwo" android:layout_toEndOf="@+id/btnSquareTwo"
+                android:clickable="true" android:enabled="true" android:layout_alignParentRight="false"
+                android:cropToPadding="false" android:layout_marginLeft="0dp"/>
+        <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:id="@+id/btnSquareSeven" android:layout_below="@+id/btnSquareFour" android:layout_alignParentStart="true"
+                android:clickable="true" android:enabled="true" android:layout_marginLeft="5dp"
+                android:cropToPadding="false"/>
+        <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:id="@+id/btnSquareEight" android:layout_below="@+id/btnSquareFour" android:layout_toEndOf="@+id/btnSquareFour"
+                android:clickable="true" android:enabled="true" android:layout_alignParentRight="false"
+                android:cropToPadding="false"/>
+        <ImageButton
+                android:layout_width="120dp"
+                android:layout_height="100dp"
+                android:id="@+id/btnSquareNine" android:layout_below="@+id/btnSquareFive" android:layout_toEndOf="@+id/btnSquareFive"
+                android:clickable="true" android:enabled="true" android:layout_alignParentLeft="false"
+                android:layout_alignParentRight="false" android:cropToPadding="false" android:layout_marginLeft="0dp"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceSmall"
+                android:id="@+id/txtPlay"
+                android:layout_marginTop="85dp" android:textStyle="bold" android:textColor="@color/LightYellow"
+                android:textSize="30sp" android:inputType="text"
+                android:hint="@string/nameonScreen" android:layout_marginLeft="-20dp" android:textColorHint="@color/White"
+                android:layout_alignParentTop="true" android:layout_alignEnd="@+id/btnSquareTwo"/>
+        <Chronometer
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:id="@+id/chrono"
+                android:enabled="false" android:textColor="@color/Red"
+                android:gravity="center"
+                android:layout_marginEnd="33dp"
+                android:layout_alignBottom="@+id/txtPlay" android:layout_alignEnd="@+id/btnSquareThree"/>
+    </RelativeLayout>
+</LinearLayout>

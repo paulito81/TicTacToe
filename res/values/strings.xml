@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TitTacToe</string>
+    <string name="velkommen">Welcome to TicTacToe</string>
+    <string name="spillerNavn2">Player two name</string>
+    <string name="SpillerNavn1">Player one name</string>
+    <string name="welcomeTxt">Tic Tac Toe "new game"</string>
+    <string name="PlayRuleTxt">Start the game by enter two names.\nEnter player one and player two.\nThen start the game by hitting the "play button"!</string>
+    <string name="name1Edt">Player1 name</string>
+    <string name="name2Edt">Player2 name</string>
+    <string name="background_menu">background</string>
+    <string name="PlayBtn">Play</string>
+    <string name="backHighscore">back-highscore</string>
+    <string name="highScore">HIGH SCORE</string>
+    <string name="NumberOne">Medium Text</string>
+    <string name="NumberTwo">Medium Text</string>
+    <string name="NumberThree">Medium Text</string>
+    <string name="NumberFour">Medium Text</string>
+    <string name="NumberFive">Medium Text</string>
+    <string name="NumberSix">Medium Text</string>
+    <string name="NumberSeven">Medium Text</string>
+    <string name="quit">Quit</string>
+    <string name="newGame">New Game</string>
+    <string name="HighScore">High Score</string>
+    <string name="ticTacHead">TIC TAC TOE</string>
+    <string name="pause">>>Pause>></string>
+    <string name="gameOver">Game Over!</string>
+    <string name="PlayerUP">Player up</string>
+    <string name="ButtonOne">New Button</string>
+    <string name="ButtonTwo">New Button</string>
+    <string name="ButtonThree">New Button</string>
+    <string name="ButtonFour">New Button</string>
+    <string name="ButtonFive">New Button</string>
+    <string name="ButtonSix">New Button</string>
+    <string name="ButtonSeven">New Button</string>
+    <string name="ButtonEight">New Button</string>
+    <string name="ButtonNine">New Button</string>
+    <string name="menuKnapp">menu</string>
+    <string name="picture">picture</string>
+    <string name="highesScore">HighScore</string>
+    <string name="newButton">New Game</string>
+    <string name="txtOutDisp">win?</string>
+    <string name="displaytime">date</string>
+    <string name="quitButton">Quit</string>
+    <string name="nameonScreen">New player</string>
+</resources>

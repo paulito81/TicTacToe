@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="games_played_Array">
+    <item>gamePlay_one</item>
+    <item>gamePlay_two</item>
+    <item>gamePlay_three</item>
+    <item>gamePlay_four</item>
+    <item>gamePlay_five</item>
+    </string-array>
+</resources>
